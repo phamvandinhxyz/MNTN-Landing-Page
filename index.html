@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keeply | Personal Vault</title>
+    <link rel="icon" type="image/jpeg" href="./assets/icons/favicon.jpg">
+    <meta name="description"
+        content="Keeply - Store every precious moment securely. Your private digital vault for memories, files, and passwords.">
+
+    <!-- To load background image (LCP) faster -->
+    <!-- <link rel="preload" as="image" href="assets/images/HG.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/images/MG.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/images/VG.webp" fetchpriority="high"> -->
+
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <!-- <link rel="preload" fetchpriority="high" as="image" href="./assets/images/HG.png" type="image/png">
+    <link rel="preload" fetchpriority="high" as="image" href="./assets/images/MR.png" type="image/png">
+    <link rel="preload" fetchpriority="high" as="image" href="./assets/images/VG.png" type="image/png"> -->
+</head>
+
+<body>
+    <div class="layer-background-color" aria-hidden="true" aria-disabled="true"></div>
+    <div class="hero-section-view-placeholder"></div>
+    <div class="right-side-nav">
+        <ul>
+            <li><a href="#image1-cloud">Start</a></li>
+            <li><a href="#info-card-1">01</a></li>
+            <li><a href="#info-card-2">02</a></li>
+            <li><a href="#info-card-3">03</a></li>
+            <li><a href="#info-card-4">04</a></li>
+            <li><a href="#info-card-5">05</a></li>
+        </ul>
+        <div class="section-indicator-bar">
+            <div class="section-indicator"></div>
+        </div>
+    </div>
+
+    <!-- Info Card Component -->
+    <template class="info-card-template">
+        <div class="info-card">
+            <div class="info-serial-no" aria-hidden="true" aria-disabled="true"></div>
+            <!-- <div class="half-box-text"> -->
+            <div class="half-box-text">
+                <div class="subtitle">
+                    <span class="start-dash"></span>
+                    <span class="subtitle-text font-roboto"></span>
+                </div>
+                <h2 class="title"></h2>
+                <p class="description"></p>
+                <div class="read-more">
+                    <span>read more</span>
+                    <img src="./assets/icons/right-arrow.svg" alt="right-arrow-icon">
+                </div>
+            </div>
+            <div class="half-box-image">
+                <img class="info-image" src="./assets/images/01.webp" alt="info-ref-image">
+            </div>
+        </div>
+    </template>
+
+    <div id="image1-cloud" class="image1-cloud">
+        <!-- <img src="./assets/images/HG.png" alt=""> -->
+    </div>
+    <div class="image2-mountains">
+        <!-- <img src="./assets/images/MG.png" alt=""> -->
+    </div>
+    <div class="image3-person-on-mountain">
+        <!-- <img src="./assets/images/VG.png" alt=""> -->
+    </div>
+    <div class="bg-layer0-black-white"></div>
+    <div class="bg-layer1-black-white"></div>
+    <div class="bg-layer2-black-white"></div>
+    <div class="bg-layer3-black-white"></div>
+    <nav>
+        <div class="logo">Keeply</div>
+        <ul class="nav-items">
+            <li><a href="">Features</a></li>
+            <li><a href="">Security</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+        <div class="userAccount">
+            <a href="/">
+                <img src="./assets/icons/profile-icon.svg" alt="profile-icon">
+                <span class="font-roboto">Account</span>
+            </a>
+        </div>
+    </nav>
+    <main class="main-container">
+        <div class="hero-section">
+            <div class="subtitle">
+                <span class="start-dash"></span>
+                <span class="subtitle-text font-roboto">YOUR PERSONAL VAULT</span>
+            </div>
+            <div>
+                <h1>Keep Your Memories And Everything Safe!</h1>
+            </div>
+            <div class="scroll-down">
+                <span>scroll down</span>
+                <img src="./assets/icons/down-arrow.svg" alt="down-arrow-icon">
+            </div>
+        </div>
+        <div class="container-info-cards">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div class="footer-info-about-us">
+                <div class="logo font-roboto">Keeply</div>
+                <p>Store everything securely and access your memories anywhere!</p>
+            </div>
+            <span class="copyright">Copyright 2026 Keeply, Inc. Terms & Privacy</span>
+        </div>
+
+        <div class="footer-navlinks">
+            <div>
+                <div class="footer-navlinks-header">More on The Blog</div>
+                <ul>
+                    <li><a href="/">About Keeply</a></li>
+                    <li><a href="/">Contributors & Writers</a></li>
+                    <li><a href="/">Write For Us</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="/">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-navlinks-header">More on Keeply</div>
+                <ul>
+                    <li><a href="/">The Team</a></li>
+                    <li><a href="/">Jobs</a></li>
+                    <li><a href="/">Press</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./main.js" type="module"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</html>
